@@ -1,0 +1,47 @@
+{
+  "name": "toon-bunny",
+  "version": "1.0.0",
+  "description": "An example of cel shading, including outlines",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy index.js:bundle.js --open -- -t glslify",
+    "pages": "browserify index.js -o bundle.js -t glslify"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "bunny": "^1.0.1",
+    "canvas-fit": "^1.2.0",
+    "canvas-orbit-camera": "0.0.1",
+    "gl-clear": "0.0.1",
+    "gl-context": "^0.1.0",
+    "gl-geometry": "0.0.0",
+    "gl-mat4": "^1.0.0",
+    "glslify": "^1.6.0",
+    "normals": "^0.1.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^5.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/toon-bunny.git"
+  },
+  "keywords": [
+    "stackgl",
+    "glsl",
+    "example",
+    "demo",
+    "webgl"
+  ],
+  "homepage": "https://github.com/hughsk/toon-bunny",
+  "bugs": {
+    "url": "https://github.com/hughsk/toon-bunny/issues"
+  }
+}
